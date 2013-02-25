@@ -1,0 +1,18 @@
+aliases:
+	
+	
+on place:
+	#if block is a limited block:
+	#block is
+		#add {DD.ItemLimiter.%player%}
+	#if player reach limited number of blocks:
+		#Warning message:
+		#Cancel event.
+	
+on break:
+	#if block is a limited block:
+		#if placed items is 0 or less
+			#sarning message	
+		#else
+			#remove 1 from limit.
+		
